@@ -4,6 +4,7 @@
     "connector": "memory"
   },
   "mongodb": {
+    "database": "coffeeshop",
     "name": "mongodb",
     "connector": "mongodb"
   },
