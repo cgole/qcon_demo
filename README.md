@@ -1,24 +1,24 @@
 
 Features covered in this app - 
 
-1. Model - CoffeeShops, Reviews, Customers
-2. Datasource connectors 
-3. Model relations between CoffeeShops, Reviews, Customers so Customers can add Reviews for Coffeeshops.
-4. ACls - No write access to Reviews
-5. Custom method example in common/models/coffee-shop.js 
-6. FE map in client/index.html
-7. Strong-studio discovery and migration using mysql and the Coffee model
+* Model - CoffeeShops, Reviews, Customers
+* Datasources and connectors 
+* Model relations - Customers can add Reviews for Coffeeshops.
+* ACls - No write access to Reviews
+* Custom method example in common/models/coffee-shop.js 
+* FE map in client/index.html
+* Strong-studio discovery and migration using mysql and the Coffee model
 
 
-To run the app, you need to have Mongo running.
 
-Install dependencies - npm i
-Run the app - slc run
-Open the explorer - http://localhost:3000/explorer
-Open the coffeeshop map - http://localhost:3000/index.html
-When you run the app for the first time, the database is empty and you dont see any data on the map.
-Open coffeeshops.json in the root directory of the app and copy the contents of that file.
-Make a post request to /api/CoffeeShops from the explorer. This will add all the coffee shops to the mongo db.
-Reload http://localhost:3000/index.html. You should now see the coffeeshops on the map.  
+1. To run the app, you need to have Mongo running.
+2. Install dependencies - npm i
+3. Run the app - slc run
+4. Open the explorer - http://localhost:3000/explorer
+5. Open the coffeeshop map - http://localhost:3000/index.html
+6. When you run the app for the first time, the database is empty and you dont see any data on the map.
+7. Open coffeeshops.json in the root directory of the app and copy the contents of that file.
+8. Make a post request to /api/CoffeeShops from the explorer. This will add all the coffee shops to the mongo db.
+9. Reload http://localhost:3000/index.html. You should now see the coffeeshops on the map.  
 
 
